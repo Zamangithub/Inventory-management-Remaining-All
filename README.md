@@ -8,14 +8,14 @@ spring.datasource.url=jdbc:mysql://localhost:3306/ims
 spring.datasource.username=root
 spring.datasource.password=root
 
-# Hibernate settings
+// Hibernate settings
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql =true
 
 
-# Email Sending config.
+// Email Sending config.
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
 spring.mail.username= (YourActualEmail)
@@ -23,7 +23,7 @@ spring.mail.password= (YourthatgeneratedemailPassword)
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 
-////////////////# POMXml  ///////////////
+# POMXml  
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
